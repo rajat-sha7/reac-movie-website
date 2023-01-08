@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #1e2931;
+  color: #fff;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+
+   position: relative;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

@@ -1,0 +1,19 @@
+.searchbox{
+
+width: 100%;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  margin-top: 2%;
+  padding: 5px;
+}
+
+input{
+    width:80%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+}

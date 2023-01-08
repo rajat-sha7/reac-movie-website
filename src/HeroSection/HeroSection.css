@@ -1,0 +1,85 @@
+.Cards{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+
+    height: auto;
+
+    padding-bottom: 5%;
+    margin-bottom: 100px;
+}
+
+.Card{
+    width: 18%;
+    height: 400px;
+    background-color: #1e2931;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        box-shadow: 0 0 1em rgb(0 0 0 / 30%);
+}
+.Card img {
+    width: 100%;
+    height: 350px;
+}
+
+.movietitlle{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+    padding: 10px;
+
+}
+
+.cardtitle{
+    display: none;
+    font-size: 10px;
+   
+}
+
+.Card:hover .cardtitle{
+    display: block;
+   
+}
+
+.Card:hover{
+    box-shadow: 5px 5px 1em rgb(0 0 0 / 90%);
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+    .Cards{
+
+        gap: 20px;
+        justify-content: center;
+    
+       
+    }
+    
+.Card{
+    width: 35%;
+    height: 400px;
+   
+}
+
+
+}
+
+
+@media screen and (max-width:430px){
+    .Card{
+        width: 65%;
+        height: 400px;
+       
+    }
+}
+

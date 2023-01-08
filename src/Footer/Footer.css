@@ -1,0 +1,43 @@
+.footer{
+    padding-top: 10px;
+    width: 89vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:10px ;
+    position: absolute;
+   
+    /* margin-top: 100px; */
+    position: absolute;
+    bottom: 00px;
+    
+
+}
+
+
+i{
+    color: #337ab7;
+}
+
+
+
+@media screen and (max-width:400px){
+    .footer{
+        padding-top: 10px;
+        width: 89vw;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        gap:10px ;
+        position: absolute;
+    
+        bottom: 0px;
+        
+    
+    }
+    
+}
